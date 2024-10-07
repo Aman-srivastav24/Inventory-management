@@ -34,7 +34,7 @@ CREATE TABLE "Sales" (
 CREATE TABLE "Purchases" (
     "purchaseID" TEXT NOT NULL,
     "productId" TEXT NOT NULL,
-    "timestamp" INTEGER NOT NULL,
+    "timestamp" TIMESTAMP(3) NOT NULL,
     "unitCost" DOUBLE PRECISION NOT NULL,
     "totalCost" DOUBLE PRECISION NOT NULL,
 
